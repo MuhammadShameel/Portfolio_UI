@@ -69,6 +69,7 @@ nav li {
 .profile {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 158px;
 }
 
 /* Style for the image div */
@@ -151,5 +152,8 @@ nav li {
     background-color: #ff6464;
     color: #ffff;
     border: none;
+  }
+  .profile {
+    margin-top: 33px;
   }
 }

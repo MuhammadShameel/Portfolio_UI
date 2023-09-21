@@ -65,3 +65,70 @@ nav li {
 .works {
   padding-right: 40px;
 }
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 0 0 calc(50% - 20px); /* Two boxes per row with some spacing */
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 500px;
+  width: 320px;
+}
+.box-img {
+  flex: 0 0 calc(50% - 20px); /* Two boxes per row with some spacing */
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 500px;
+  width: 320px;
+}
+
+/* Style for the image div */
+.image {
+  text-align: center;
+}
+
+.image img {
+  border-radius: 50%; /* Make the image round */
+  max-width: 100px;
+  height: auto;
+}
+
+.profile_head {
+  width: 450px;
+  height: 105px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+}
+.profile_desc {
+  margin-top: 40px !important;
+  width: 497px;
+  height: 66px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23.5px;
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .hide-lg {
+    display: none;
+  }
+  .show-lg {
+    display: block;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .hide-md {
+    display: none;
+  }
+  .show-md {
+    display: block;
+  }
+}

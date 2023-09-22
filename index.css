@@ -249,3 +249,11 @@ nav li {
   font-size: 16px;
   line-height: 23.5px;
 }
+/* @media (min-width: 200px) and (max-width: 576px) {
+  .recent-post-1 {
+    width: 100% !important;
+  }
+  .recent-post-2 {
+    width: 100% !important;
+  }
+} */

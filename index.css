@@ -242,6 +242,10 @@ nav li {
   .hide-xs {
     display: none;
   }
+  .recent-post-para {
+    padding: 10px 10px 10px 10px !important;
+    line-height: 18px;
+  }
 }
 
 /* // X-Small devices (portrait phones, less than 576px) */
@@ -368,6 +372,10 @@ nav li {
 .copyright-text {
   width: 250px;
   margin: 26px auto 54px auto;
+  font-size: 14px;
+  color: #21243d;
+  text-align: center;
+  font-weight: 400;
 }
 .fb-icon,
 .insta-icon,

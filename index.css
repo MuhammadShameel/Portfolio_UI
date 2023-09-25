@@ -357,3 +357,20 @@ nav li {
 .card {
   margin: 20px auto;
 }
+.line {
+  color: #e0e0e0;
+  border: 1px solid #e0e0e0;
+}
+.icons {
+  width: 250px;
+  margin: 134px auto 0px auto;
+}
+.copyright-text {
+  width: 250px;
+  margin: 26px auto 54px auto;
+}
+.fb-icon,
+.insta-icon,
+.twitter-icon {
+  padding-right: 35px;
+}

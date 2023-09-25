@@ -49,6 +49,10 @@ nav ul {
 nav li {
   padding-left: 1rem;
 }
+.navbar {
+  justify-content: end !important;
+  margin-right: 20px;
+}
 .contact,
 .blog,
 .works {
@@ -149,6 +153,7 @@ nav li {
 }
 .recent-post-head-1 {
   /* width: 374px; */
+  color: #21243d;
   height: 85px;
   font-weight: 700;
   font-size: 26px;
@@ -242,52 +247,117 @@ nav li {
     display: none;
   }
 }
-@media (min-width: 200px) and (max-width: 450) {
-}
 
 /* // X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 320px) {
-  .container-custom {
-    width: 100px;
-  }
-  .recent-post-1 {
-    width: 280px;
-  }
-}
 
-@media (max-width: 575.98px) {
+@media (min-width: 250px) and (max-width: 575.98px) {
   .container-custom {
     width: 300px;
+    margin: 0 auto;
   }
-  .recent-post-1 {
-    width: 280px;
+  .profile_desc {
+    width: 100%;
+  }
+  .download_resume {
+    margin-top: 30px !important;
   }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (min-width: 575.98px) and (max-width: 767.98px) {
   .container-custom {
+    margin: 0 auto;
     width: 400px;
   }
 }
 
 /* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
+@media (min-width: 767.98px) and (max-width: 991.98px) {
   .container-custom {
+    margin: 0 auto;
     width: 700px;
   }
 }
 
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
   .container-custom {
+    margin: 0 auto;
     width: 836px;
   }
 }
 
 /* // X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {
+@media (min-width: 1199.98px) and (max-width: 2000px) {
   .container-custom {
     width: 836px;
+    margin: 0 auto;
   }
+}
+.designing-dashboard {
+  display: flex;
+}
+
+.featured-work-content {
+  margin: 0px 0px 0px 50px;
+}
+
+.featured-work-head {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38.19px;
+  color: #21243d;
+}
+
+.featured-work-btn {
+  margin: 20px 0px 0px 50px;
+  border: none;
+  border-radius: 16px;
+  width: 62px;
+  height: 25px;
+  background-color: #142850;
+  font-size: 16px;
+  font-weight: 500;
+  /* line-height: 60px; */
+  color: #ffffff;
+}
+
+.featured-work-para {
+  margin: 20px 0px 0px 50px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  color: #21243d;
+}
+
+.featured-works-title {
+  color: #21243d;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+}
+.vibrant-portraits,
+.malayalam-type {
+  margin-top: 46px;
+}
+.card-head {
+  font-size: 18px;
+  font-weight: 700px;
+  line-height: 30px;
+  color: #21243d;
+}
+.featured-work-btn-mobile {
+  margin: 20px 0px 10px 0px;
+  border: none;
+  border-radius: 16px;
+  width: 62px;
+  height: 25px;
+  background-color: #142850;
+  font-size: 16px;
+  font-weight: 500;
+  /* line-height: 60px; */
+  color: #ffffff;
+}
+.card {
+  margin: 0 auto;
 }

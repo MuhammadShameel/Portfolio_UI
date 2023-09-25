@@ -258,6 +258,9 @@ nav li {
   .date-title {
     margin-top: 30px;
   }
+  .recent-text {
+    margin: 0 auto;
+  }
 }
 
 /* // X-Small devices (portrait phones, less than 576px) */
@@ -393,4 +396,15 @@ nav li {
 .insta-icon,
 .twitter-icon {
   padding-right: 35px;
+}
+
+/* xyz  */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #21243d; /* Change the background color */
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 30% !important;
+  /* padding: 0px 0px 0px 36px !important; */
 }

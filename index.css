@@ -246,6 +246,18 @@ nav li {
     padding: 10px 10px 10px 10px !important;
     line-height: 18px;
   }
+  .recent-post-1 {
+    height: 300px;
+  }
+  .recent-date {
+    font-size: 14px;
+  }
+  .recent-date-title {
+    font-size: 14px;
+  }
+  .date-title {
+    margin-top: 30px;
+  }
 }
 
 /* // X-Small devices (portrait phones, less than 576px) */

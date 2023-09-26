@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   line-height: normal;
@@ -54,6 +57,13 @@ nav li {
 .works {
   text-decoration: none;
   color: black;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29.38px;
+}
+.nav-link:hover {
+  text-decoration: none;
+  color: #ff6464 !important;
   font-weight: 500;
   font-size: 20px;
   line-height: 29.38px;
@@ -406,4 +416,18 @@ nav li {
 .carousel-control-next {
   width: 30% !important;
   /* padding: 0px 0px 0px 36px !important; */
+}
+
+.recent-post-1:hover {
+  transform: translate3D(0, -1px, 0) scale(1.05) !important; /* move up slightly and zoom in */
+  box-shadow: 8px 28px 50px rgba(39, 44, 49, 0.07),
+    1px 6px 12px rgba(39, 44, 49, 0.04);
+  transition: all 0.4s ease !important; /* zoom in */
+  cursor: pointer !important;
+}
+
+img:hover {
+  transform: translate3D(0, -1px, 0) scale(1.05) !important; /* move up slightly and zoom in */
+  transition: all 0.4s ease !important; /* zoom in */
+  cursor: pointer !important;
 }

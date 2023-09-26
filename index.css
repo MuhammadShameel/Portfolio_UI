@@ -75,7 +75,6 @@ nav li {
 /* Style for the image div */
 
 .profile_head {
-  width: 450px;
   height: 105px;
   font-weight: 700;
   font-size: 44px;
@@ -187,7 +186,7 @@ nav li {
     display: block;
   }
 }
-@media (min-width: 200px) and (max-width: 768px) {
+@media (min-width: 200px) and (max-width: 767px) {
   .hide-md {
     display: none;
   }
